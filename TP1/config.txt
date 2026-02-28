@@ -1,2 +1,2 @@
-net.ghizlane.dao.DaoImp
+net.ghizlane.ext.DaoImpV2
 net.ghizlane.metier.MetierImp
