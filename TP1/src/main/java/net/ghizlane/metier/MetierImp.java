@@ -1,15 +1,16 @@
 package net.ghizlane.metier;
 
 import net.ghizlane.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImp implements  IMetier{
     private IDao dao;
 
-    public MetierImp(IDao dao) {
+    public MetierImp(@Qualifier("d2") IDao dao) {
         this.dao = dao;
-    }
-
-    public MetierImp() {
     }
 
     @Override
