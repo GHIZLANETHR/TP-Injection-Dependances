@@ -1,4 +1,4 @@
-package net.ghizlane.net.ghizlane.ext;
+package net.ghizlane.ext;
 
 import net.ghizlane.dao.IDao;
 
